@@ -1,0 +1,33 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Django specific
+*.log
+*.pot
+*.py~
+db.sqlite3
+media/
+
+# Environment & secrets
+.env
+*.env
+
+# Static files (collected)
+staticfiles/
+static/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
